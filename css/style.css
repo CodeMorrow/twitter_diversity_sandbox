@@ -52,6 +52,14 @@
 	border-radius: 5px;
 }
 
+.twitterResults{
+	text-align: center;
+}
+
+.twitterData {
+	text-align: center;
+}
+
 .twitterData label{
 	margin-top: 20px;
 }
