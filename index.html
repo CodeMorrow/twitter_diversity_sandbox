@@ -27,6 +27,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- JavaScript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="global.js"></script>
+
 </head>
 <body>
 
@@ -52,11 +56,13 @@
         
           <label for="twitterHandle">TWITTER HANDLE:</label>
 
-          <input type="text" name="twitterHandle" placeholder="@TwitterHandle">
+          <input id="twitterHandle" type="text" name="twitterHandle" placeholder="@TwitterHandle">
 
-          <button class="button-primary">Get Your Results</button>
+          <button id="getResults"class="button-primary">Get Your Results</button>
 
-          <div class="searchHelp">Who should I search for?</div>
+          <div id="errorMessage"></div>
+
+          <div id="searchHelp" class="searchHelp">Who should I search for?</div>
 
           <div class="searchHelp__title">YOURSELF</div>
           <div class="searchHelp__message">How diverse is your feed? Are you exposed primarily to viewpoints similar to yours?</div>
@@ -75,7 +81,7 @@
 
           <button class="button-primary" name="getStarted">Get Started</button>
 
-          <div class="dataHelp">What happens to my data?</div>
+          <div id="dataHelp" class="dataHelp">What happens to my data?</div>
 
           <div class="dataHelp__title">MORE ACCURATE DATA</div>
           <div class="dataHelp__message">The greater percentage of twitter users who participate, the more complete and meaningful the data.</div>

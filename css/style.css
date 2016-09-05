@@ -56,11 +56,20 @@
 	margin-top: 20px;
 }
 
+#errorMessage{
+	color: red;
+}
+
 .searchHelp{
 	font-weight: bold;
 	border-top: solid 1px #E1E8ED;
 	margin-top: 5px;
 	padding-top: 5px;
+}
+
+.searchHelp:hover{
+	color: #33C3F0;
+	cursor: pointer;
 }
 
 .searchHelp__title{
@@ -80,6 +89,11 @@
 	border-top: solid 1px #E1E8ED;
 	margin-top: 38px;
 	padding-top: 5px;
+}
+
+.dataHelp:hover{
+	color: #33C3F0;
+	cursor: pointer;
 }
 
 .dataHelp__title{
